@@ -1,0 +1,10 @@
+a) What did I work on last time?
+-Finished special characters with mkdir
+-Collabrated with JShell to test commands
+
+b) What do I plan to work on now?
+-Test curl
+-Bix last minute bugs
+
+c) Am I blocked on anything?
+

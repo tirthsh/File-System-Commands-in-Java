@@ -1,0 +1,9 @@
+Class name: popd
+Parent class (if any): commandSuper
+Subclasses (if any):
+
+Responsibilities:
+* Remove the top entry from the directory and cd into it.
+
+Collaborators:
+* commandSuper

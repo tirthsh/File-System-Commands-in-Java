@@ -1,0 +1,13 @@
+a) What did I work on last time?
+	- Designing the fileSystem class
+	- Writing test cases for the fileSystem class
+	- researching JTrees as potential implementation for the fileSystem
+	
+b) What do I plan to work on now?
+	- finalize test cases for the fileSystem class
+	- finish the fileSystem class
+	- potentially work on other classes related to the fileSystem
+
+c) Am I blocked on anything?
+	- Understanding JTrees for the fileSystem class
+	- pondering other possible design structures to implement the filesystem

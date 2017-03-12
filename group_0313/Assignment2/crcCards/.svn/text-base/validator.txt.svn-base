@@ -1,0 +1,8 @@
+Class name: validator
+Parent class (if any): 
+Subclasses (if any):
+
+Responsibilities:
+* Validates all commands and file URL locations
+
+Collaborators:

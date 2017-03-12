@@ -1,0 +1,18 @@
+a) What did I work on last time?
+-implenting and improving validator design
+-Test methods already created in the validator class
+-Communicate with other group memembers on how the validator class will sync with their current code
+
+b) What do I plan to work on now?
+-Test Validator class using multiple commands and mock testing
+-Improve design so it can work for all inputs and special cases
+
+c) Am I blocked on anything?
+-Still working on the validator class
+-Need to create Hash table to keep track of what command is entered 
+	- will help implement validtor class eaiser
+
+
+
+
+

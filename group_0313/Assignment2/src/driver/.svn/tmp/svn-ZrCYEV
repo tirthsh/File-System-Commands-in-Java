@@ -1,0 +1,163 @@
+// ********************
+// Assignment2:
+// Student1: Yinan Nick Gong
+// UTORID user_name: gongyi2
+// UT Student #: 999709873
+// Author: Nick :)
+//
+// Student2:Jerry Cheng
+// UTORID user_name: chengj38
+// UT Student #: 1001561543
+// Author: Jerry :)
+//
+// Student3: Tirth Shah         
+// UTORID user_name: shahtirt
+// UT Student #: 1001396937
+// Author: Tirth ;)
+//
+// Student4:
+// UTORID user_name:
+// UT Student #:
+// Author:
+//
+//
+// Honor Code: I pledge that this program represents my own
+// program code and that I have coded on my own. I received
+// help from no one in designing and debugging my program.
+// I have also read the plagiarism section in the course info
+// sheet of CSC B07 and understand the consequences.
+// *******************
+package driver;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+import commands.*;
+import fileSystem.fileSystem;
+
+
+public class JShell {
+
+  public static final String EXIT_COMMAND = "exit";
+
+  /**
+   * Main driver method, checks the input for command and path validitiy, if
+   * valid and file/dir exists, execute that command on the file/dir and reflect
+   * changes to file system.
+   * 
+   * @param input from user
+   */
+  public static void main(final String[] args) throws IOException,
+      ClassNotFoundException, InstantiationException, IllegalAccessException {
+
+    // Create a buffered reader to read the input
+    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    history HistoryCommand = new history();
+
+    System.out.println("Enter some commands, or " + EXIT_COMMAND + " to quit");
+
+    String[] validCommands;
+
+    // keep repeating until exit command
+    boolean on = true;
+    while (on) {
+      System.out.print("> ");
+
+      // store the input line as a string
+      String input = br.readLine();
+
+      // create objects of each command
+      fileSystem fs = fileSystem.getFileSystemFp();
+      HistoryCommand.add(input);
+      cat CatCommand = new cat();
+      cd CdCommand = new cd();
+      echo EchoCommand = new echo();
+      ls LsCommand = new ls();
+      man ManCommand = new man();
+      mkdir MkdirCommand = new mkdir();
+      pwd PwdCommand = new pwd();
+      pushd PushdCommand = new pushd();
+      popd PopdCommand = new popd();
+
+      // create a Validator object to validate the command
+      Validator validator = new Validator();
+
+      if (input.length() == 0) {
+      }
+
+      // if input is 1 char, return error
+      else if (input.length() == 1) {
+        System.out.println(
+            "That is not a valid command, please enter a" + " valid command.");
+      }
+
+      // if exit is entered then turn off the while loop, aka exit JShell
+      else if (input.length() == EXIT_COMMAND.length()
+          && input.toLowerCase().equals(EXIT_COMMAND)) {
+        System.out.println("Exiting. Thanks for using JShell.");
+        on = false;
+        return;
+      }
+
+      // else its a possible viable output
+      else {
+
+        String[] is_valid;
+        // call and store the validator method validate_command
+        // which checks for the correct commands, arguments and paths
+        is_valid = validator.Validate_command(input);
+
+        // if validator returns true for 1st index then its a valid command
+        if (is_valid[0].equals("true")) {
+
+          if (is_valid[1].equals("history") && is_valid[2] == null) {
+            HistoryCommand.execute();
+          }
+
+          else if (is_valid[1].equals("history") && is_valid.length == 3) {
+            int historyIndex = 0;
+            try {
+              historyIndex = Integer.parseInt(is_valid[2]);
+            } catch (NumberFormatException e) {
+              System.out.println("Index for history is invalid");
+            }
+            HistoryCommand.executeUpto(historyIndex);
+          } else if (is_valid[1].equals("cd")) {
+            CdCommand.execute(is_valid[2]);
+          } else if (is_valid[1].equals("ls")) {
+            String[] path = Arrays.copyOfRange(is_valid, 2, is_valid.length);
+            LsCommand.execute(path);
+          } else if (is_valid[1].equals("cat")) {
+            String[] path = is_valid[2].split(" ");
+            List<String> list_path = new ArrayList<String>(Arrays.asList(path));
+            CatCommand.execute(list_path);
+          } else if (is_valid[1].equals("echo")) {
+            String[] path = is_valid[2].split(" ");
+            List<String> list_path = new ArrayList<String>(Arrays.asList(path));
+            EchoCommand.execute(list_path);
+
+          } else if (is_valid[1].equals("pwd")) {
+            PwdCommand.execute();
+          } else if (is_valid[1].equals("pushd")) {
+            PushdCommand.execute(is_valid[2]);
+          } else if (is_valid[1].equals("mkdir")) {
+            String[] path = is_valid[2].split(" ");
+            List<String> list_path = new ArrayList<String>(Arrays.asList(path));
+            MkdirCommand.execute(list_path);
+          } else if (is_valid[1].equals("man")) {
+            ManCommand.execute(is_valid[2]);
+          }
+          // else {
+          // System.out.println("...response goes here... " + is_valid[0] + ' '
+          // + is_valid[1]+ ' ' + is_valid[2] + ' ' + is_valid[3]);
+        } else {
+          System.out.println("That is not a valid command");
+        }
+      }
+    }
+  }
+}

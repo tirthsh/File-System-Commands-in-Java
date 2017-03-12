@@ -1,0 +1,7 @@
+a) What did I work on last time?
+- integrating file redirection for cat, echo and pwd
+b) What do I plan to work on now?
+- implementing the grep command
+c) Am I blocked on anything?
+- experimenting with pattern and matcher for regex manipulation
+- figuring out how to sort out optional parameters in Grep.

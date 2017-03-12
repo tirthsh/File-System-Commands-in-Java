@@ -1,0 +1,14 @@
+a) What did I work on last time?
+-Make a method that creates one instance of FileSystem only.
+-Created the man command
+-Created the history command
+-Created the popd command
+-Created the pushd command
+-Worked on JShell user inputs for different cases
+
+b) What do I plan to work on now?
+-Verify all the commands work as intended in JShell
+-'Connect all the pieces', call the command objects using Validator output
+
+c) Am I blocked on anything?
+-Need to confirm with Tirth if Validator returns what we need it to

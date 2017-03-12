@@ -1,0 +1,9 @@
+Class name: echo
+Parent class (if any): commandSuper
+Subclasses (if any): 
+
+Responsibilities:
+* Put String in OutFile (overwriting or appending to OutFile)
+* If OutFile does not exist, create it and put String in it.
+
+Collaborators:

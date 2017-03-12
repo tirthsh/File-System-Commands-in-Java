@@ -1,0 +1,11 @@
+what did I work on last time?
+- Completed mv class
+- made changes to existing fileSystem code
+
+What do I plan on working now?
+- Finish cp class
+- clean up mv, cp, ls class, all filesystem classes. ie. add comments and java doc, fix spacing and naming convention.
+- start grep command.
+
+Am I stuck on anything?
+Pokemon Go is taking too much time :)

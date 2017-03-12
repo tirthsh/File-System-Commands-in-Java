@@ -1,0 +1,7 @@
+a) What did I work on last time?
+	- FileSystem Class
+b) What do I plan to work on now?
+	- Cat, cd and pwd class for JShell commands
+	- Writing test cases for the adove commands
+c) Am I blocked on anything?
+	- Figuring out how to incorporate commands with JShell

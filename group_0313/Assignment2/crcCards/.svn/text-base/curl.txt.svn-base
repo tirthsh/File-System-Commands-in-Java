@@ -1,0 +1,10 @@
+Class name: curl
+Parent class (if any):
+Subclasses (if any):
+
+Responsibilities:
+* retrieve file at URL and add it to the current working directory
+
+Collaborators:
+*JShell
+

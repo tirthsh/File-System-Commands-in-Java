@@ -1,0 +1,12 @@
+a) What did I work on last time?
+-Created !number and began testing it
+-Worked on redirection class but ended up changing design along with Jerry
+-Create a man command update for the new commands
+
+b) What do I plan to work on now?
+-Need to finish !number
+-Check marking from 2A and make changes
+-Double check if history, pushd, popd, !number, man, and JShell work error free
+
+c) Am I blocked on anything?
+-Hashtable command calling for JShell

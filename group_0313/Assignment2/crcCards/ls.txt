@@ -1,0 +1,8 @@
+Class name: ls
+Parent class (if any): fileSystem
+Subclasses (if any): 
+
+Responsibilities:
+* lists information about file(s)
+
+Collaborators:

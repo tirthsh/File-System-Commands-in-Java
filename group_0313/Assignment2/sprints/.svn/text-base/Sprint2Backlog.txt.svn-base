@@ -1,0 +1,40 @@
+//Sprint 2 Backlog.  
+June 14 to June 19
+
+
+User Stories from Product Backlog that we will address in this sprint:
+a) As a user, I should be able to exit the program.
+b) As a user, I should be able to create a new file.
+c) As a user, I should be able to create a directory.
+d) As a user, I should be able to view my current working directory.
+e) As a user, I should be able to change my current working directory.
+f) As a user, I should be able to print the contents of a file onto the shell.
+g) As a user, I should only be able to perform actions on valid commands, else raise error.
+
+
+Specific tasks to be accomplished:
+a-1. (JShell) Parse the user input for proper keywords for each command
+a-2. (JShell) Implement function to close shell on 'exit' command
+b-1. (fileSystem) Write base code for fileSystem node class
+b-2. (file) Write base code for file class
+c-1. (directory) Write base code for directory class (subclass of file)
+d-1. (fileSystem) Write class to print current directory path
+e-1. (fileSystem) Write class to change current directory path
+f-1. (cat) Write class to print contents of file on the shell
+g-1. (Validator) Finish implementing validator for each commands, arguments and paths
+g-2. (JShell) Write and raise exception classes for commands as necessary 
+
+
+These tasks are assigned as follows:
+
+User: Jerry
+Tasks: d-1, e-1, f-1
+
+User: Manan
+Tasks: a-1, a-2
+
+User: Nick
+Tasks: b-1, b-2, c-1
+
+User: Tirth
+Tasks: g-1, g-2

@@ -1,0 +1,16 @@
+What did I work on last time?
+- Completed Mv class
+- Completed Cp class
+- Finished CpTest
+- Refactored all files to comply with Java naming conventions
+
+What do I plan on working now?
+- Code clean up, ie. spacing, comments, format etc
+- Rewrite MvTest to use same format as CpTest
+- Write Ls with -r option
+- Write LsTest
+- Write unit tests for fileSystem class
+- Use exceptions in Ls
+
+Am I stuck on anything?
+No.

@@ -1,0 +1,9 @@
+a) What did I work on last time?
+- Finish coding file class
+- Finish coding Directory class
+b) What do I plan to work on now?
+- Test file and directory class
+- Make changes if neccesary
+- Coordinate with team mates to ensure file and directory class work as intended
+c) Am I blocked on anything?
+- Need to ensure they work for the program, independent testing works

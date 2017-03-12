@@ -1,0 +1,9 @@
+(Redirection)As a I user, I should have the ability to redirect (using 1 or 2 arrows) output in an outfile. 2 days
+(ls)As a user, I should be able to choose the list all subdirectories using [-R] option. 1 day
+(Move)As a user, I should be able to move a file or directory to a new path. 1 days
+(Copy)As a user, I should be able to copy a file or directory to a new path. 2 days  
+(Cat)As a user, I should be able to view contents of multiple files. 1 days.
+(Curl)As a user, I should be able to retrieve a file at that URL and add it to the current working directory. 4 days
+(!number)As a user, I should be able to execute the command at a system history index. 1 day
+(grep)As a user, I should be able to search for a regex string for any given file or directory. 4 days
+(Validator) As a user, I should be able to valid the commands and its optional inputs. 2 days

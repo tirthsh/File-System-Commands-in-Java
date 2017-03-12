@@ -1,0 +1,9 @@
+Class name: pwd
+Parent class (if any): commandSuper
+Subclasses (if any):
+
+Responsibilities:
+* prints the name of the working directory
+
+Collaborators:
+

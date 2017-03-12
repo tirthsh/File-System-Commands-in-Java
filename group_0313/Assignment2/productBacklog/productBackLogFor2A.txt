@@ -1,0 +1,20 @@
+story 1: As a user, I should be able to run this program and manage a file system. 20 days
+story 2: As a user, I should be able to exit the program whenever I want. 1 day
+story 3: As a user, I should be able to create directories which may be relative to the current directory. 1 day
+story 4: As a user, I should be able to create directories relative to a full path. 1 day
+story 5: As a user, I should be able to change my current working directory relative to the current directory. 1 day
+story 6: As a user, I should be able to change my current working directory using a full path. 1 day
+story 7: As a user, I should be able to view the contents of the current directory(files or directories), if no paths are given. 2 days
+story 8: As a user, I should be able to view the contents of a directory(files or directories), given a path(relative or full). 1 day
+story 9: As a user, I should be able to view my current working directory. 1 day
+story 10: As a user, I should be able to save the current working directory into a stack. 3 days
+story 11: As a user, I should be able to retrieve a working directory from the stack. 1 day
+story 12: As a user, I should be able to see my recent commands, I should be able to specify how many commands I would like to see. 1 day
+story 13: As a user, I should be able to display contents of a file on the shell. 2 day
+story 14: As a user, I should be able to write to shell. 1 day
+story 15: As a user, I should be able to write into a file. 3 days
+story 16: As a user, I should be able to create a new file. 1 day 
+story 17: As a user, I should be able to append to a file. 1 day
+story 18: As a user, I should be able to read the man page for CMD. 1 day 
+story 19: As a user, I should be able to open the shell and prompt the user for input. 1 day
+story 20: As a user, I should only be able to perform actions on valid commands, else raise error. 2 days

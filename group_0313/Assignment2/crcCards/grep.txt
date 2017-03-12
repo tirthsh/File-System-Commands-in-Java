@@ -1,0 +1,12 @@
+
+Class name: grep
+Parent class (if any):
+Subclasses (if any):
+
+Responsibilities:
+* processes text line by line and prints any lines which match 
+
+Collaborators:
+*JShell
+
+

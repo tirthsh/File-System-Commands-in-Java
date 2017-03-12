@@ -1,0 +1,10 @@
+a) What did I work on last time?
+- Tested Directory class
+- Tested File class
+- Continued to improve code and make corrections
+b) What do I plan to work on now?
+- Code fileSystem class (As opposed to original design of no specific system class)
+- Code stack class and methods
+c) Am I blocked on anything?
+- Need to decide what methods to write for fileSystem class, should I make it more comprehensive? or should I leave some specific tasks to some of the command classes?
+

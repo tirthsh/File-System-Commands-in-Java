@@ -1,0 +1,13 @@
+a) What did I work on last time?
+-Created a minimum working JShell
+-Have the shell take 2-3 command and have action performed
+-Helped with design and implementation of Validator class
+
+b) What do I plan to work on now?
+-Have the shell take 3-4 commands and have the proper response take place
+-Test Validator class using multiple commands and mock testing
+-Make a method that creates one instance of FileSystem only.
+
+c) Am I blocked on anything?
+-Waiting for implementation of command classes and Validator
+-Need to create proper objects for commmands and FileSystem

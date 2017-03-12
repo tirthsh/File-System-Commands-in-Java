@@ -1,0 +1,14 @@
+a) What did I work on last time?
+-Need to make man command design better with hashTables
+-Check marking from 2A and make changes
+-Make UnitTest cases for everything
+-Double check if history, grep, pushd, popd, man, and JShell work error free
+-update redirection special characters for Jshell/Validator
+
+b) What do I plan to work on now?
+-Double check 2A marking scheme and make ALL changes for marks 
+-Add JavaDocs, Comments, formatting
+-Make test cases for methods
+
+c) Am I blocked on anything?
+-How to test JShell main besides console

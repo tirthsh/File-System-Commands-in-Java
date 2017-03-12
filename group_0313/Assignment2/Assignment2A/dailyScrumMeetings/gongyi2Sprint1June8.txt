@@ -1,0 +1,8 @@
+a) What did I work on last time? 
+First sprint, we worked on product backlog before this
+b) What do I plan to work on now?  
+Write code according to design and assigned responsibility, I am responsible for file class
+c) Am I blocked on anything?  
+Not yet.
+
+

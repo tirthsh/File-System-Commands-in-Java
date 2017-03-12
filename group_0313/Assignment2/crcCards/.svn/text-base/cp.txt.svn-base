@@ -1,0 +1,14 @@
+Class name: cp
+Parent class (if any): 
+Subclasses (if any):
+
+Responsibilities:
+* makes copies of files and directories 
+
+Collaborators:
+* JShell
+
+
+
+
+

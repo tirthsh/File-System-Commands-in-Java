@@ -1,0 +1,9 @@
+Class name: mv
+Parent class (if any): 
+Subclasses (if any):
+ 
+Responsibilities:
+* Move a directory from one path to another, take out the original
+
+Collaborators:
+* JShell

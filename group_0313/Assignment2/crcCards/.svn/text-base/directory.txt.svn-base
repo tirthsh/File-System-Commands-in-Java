@@ -1,0 +1,9 @@
+Class name: directory
+Parent class (if any): fileSystem
+Subclasses (if any):
+
+Responsibilities:
+* A class to define a directory, its files, data, url location, etc..
+
+Collaborators:
+

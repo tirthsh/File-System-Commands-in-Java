@@ -1,0 +1,14 @@
+a) What did I work on last time?
+-Designed and brainstormed implementation for parsing user input
+-Created and implemented parts of the Validator class
+-Created JUnit ValidatorTest to test parts of Validator class
+-Helped with the desgin implementation of JShell
+
+b) What do I plan to work on now?
+-Validate number of arguments of each command 
+-Ensure path of each command is valid in the Validator class
+-Test Validator class using multiple commands and mock testing
+
+c) Am I blocked on anything?
+-Currently working towards coming up with an efficient design to validate 
+path of each command

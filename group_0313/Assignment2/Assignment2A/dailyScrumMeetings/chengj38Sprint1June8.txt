@@ -1,0 +1,10 @@
+a) What did I work on last time?
+	-Worked on ProductBacklog user stories and times as well.
+	-divided stories into tasks for sprint 1 and divided tasks among team members
+	-assigned to work on the filesystem class
+	
+b) What do I plan to work on now?
+	- the filesystem class
+
+c) Am I blocked on anything?
+	- figuring out the design for the fileSystemClass

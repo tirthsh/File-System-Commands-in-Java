@@ -1,0 +1,9 @@
+Class name: history
+Parent class (if any):
+Subclasses (if any):
+ 
+Responsibilities:
+* Record a history of the user inputs
+
+Collaborators:
+* JShell

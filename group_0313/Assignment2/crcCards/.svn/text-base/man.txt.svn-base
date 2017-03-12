@@ -1,0 +1,9 @@
+Class name: man
+Parent class (if any): commandSuper
+Subclasses (if any):
+
+Responsibilities:
+* prints the documentation for the argument command
+
+Collaborators:
+* commandSuper

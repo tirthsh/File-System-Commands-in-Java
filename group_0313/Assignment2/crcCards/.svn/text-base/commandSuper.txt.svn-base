@@ -1,0 +1,10 @@
+Class name: commandSuper
+Parent class (if any):  
+Subclasses (if any): cat, cd, echo, exit, ls, mkdir, popd, pwd, pushd    
+
+Responsibilities:
+* Parent class of commands that collaborates with all other classes.
+
+Collaborators:
+* fileSystem
+* validator

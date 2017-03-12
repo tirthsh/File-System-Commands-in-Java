@@ -1,0 +1,10 @@
+a) What did I work on last time?
+-Submitted 2A
+
+b) What do I plan to work on now?
+-Make a class for the curl command
+-Update validator class - add new validator methods for new commands
+-Sync with JShell to see if Validator works for all commands
+
+c) Am I blocked on anything?
+-No

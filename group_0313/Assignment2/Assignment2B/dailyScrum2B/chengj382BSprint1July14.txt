@@ -1,0 +1,6 @@
+a) What did I work on last time?
+- implementing the grep command
+b) What do I plan to work on now?
+- testing existing functions such as grep, cat, cd, etc
+- integration testing of created commands with Jshell
+c) Am I blocked on anything?

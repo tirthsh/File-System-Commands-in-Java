@@ -1,0 +1,11 @@
+Class name: stack
+Parent class (if any): 
+Subclasses (if any): 
+
+Responsibilities:
+* Holds a stack object of Directories
+* To be used for pushd and popd commands
+* Must adher to stack properties
+
+Collaborators:
+* Directory

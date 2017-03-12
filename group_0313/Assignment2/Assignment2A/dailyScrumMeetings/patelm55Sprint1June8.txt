@@ -1,0 +1,11 @@
+a) What did I work on last time?
+-Worked on ProductBacklog user stories and times as well.
+
+b) What do I plan to work on now?
+-Divided stories into specific tasks
+-Assigned tasks to team members
+-I will create the shell for user to input with
+-I will make the shell take input from the user
+
+c) Am I blocked on anything?
+-Need to figure out how to implement shell

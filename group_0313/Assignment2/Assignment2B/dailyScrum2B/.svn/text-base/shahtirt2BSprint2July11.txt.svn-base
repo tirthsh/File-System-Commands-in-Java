@@ -1,0 +1,14 @@
+a) What did I work on last time?
+-Collarbrated with JShell to check if validator works
+-Finished Curl command
+
+b) What do I plan to work on now?
+-Test curl
+-Bix bugs from mkdir from last assignment (special characters)
+
+c) Am I blocked on anything?
+-Finish testing
+-Fix special character file names in mkdir and redirection
+-Start testing all commands as a group ASAP
+
+

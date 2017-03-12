@@ -1,0 +1,8 @@
+Class name: cd
+Parent Class: commandSuper
+Subclasses (if any):
+
+Responsibilities:
+* Change current working directory to the one provided.
+
+Collaborators:

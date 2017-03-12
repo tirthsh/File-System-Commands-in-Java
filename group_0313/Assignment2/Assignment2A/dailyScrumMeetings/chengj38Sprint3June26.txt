@@ -1,0 +1,7 @@
+a) What did I work on last time?
+	- completed cat, cd, pwd class for Jshell commands
+b) What do I plan to work on now?
+	- writing the echo command
+	- Writing test cases for the adove commands
+c) Am I blocked on anything?
+	- N/A

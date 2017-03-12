@@ -1,0 +1,39 @@
+//Sprint 2 Backlog.  
+July 2 to June 10
+
+
+User Stories from Product Backlog that we will address in this sprint:
+a) (Redirection)As a I user, I should have the ability to redirect (using 1 or 2 arrows) output in an outfile.
+b) (Move)As a user, I should be able to move a file or directory to a new path.
+c) (Copy)As a user, I should be able to copy a file or directory to a new path. 
+d) (Validator) As a user, I should be able to valid the commands and its optional inputs.
+e) (Cat)As a user, I should be able to view contents of multiple files.
+f) (!number)As a user, I should be able to execute the command at a system history index.
+g) (curl)As a user, I should be able to input a URL of a .txt or html file and it should be able to put the contents of the file on the current working directory.
+
+Specific tasks to be accomplished:
+a-1. (Redirection) Begin coding the structure of the Redirection class that recognizes 1 or 2 arrows and creates the outfile
+a-2. (JShell) Double check if Jshell works without errors as expected
+b-1. (Copy) Create the copy class that copies a file or directory at a OLDPATH to a NEWPATH
+c-1. (Move) Create the move class that uses copy class but deletes the copy at OLDPATH
+d-1. (Validator) Implement the validator to account for the new restrictions on new commands
+d-2. (Validator) Account for [-R] inputs on commands
+e-1. (Cat) Write the additional for loop for cat class that checks and prints for multiple files
+f-1. (!number) Write the base code for the !number class using HISTORY implementation
+f-2. (history) Confirm history is free of all errors
+g-1. (curl) Create a new file on the working directory with same name as the file in the URL and place all the contents in the new file.
+
+
+These tasks are assigned as follows:
+
+User: Jerry
+Tasks: e-1, a-2
+
+User: Manan
+Tasks: a-1, a-2, f-1, f-2
+
+User: Nick
+Tasks: b-1, c-1
+
+User: Tirth
+Tasks: d-1, d-2, g-1

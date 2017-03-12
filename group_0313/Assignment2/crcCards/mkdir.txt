@@ -1,0 +1,8 @@
+Class name: mkdir
+Parent class (if any): commandSuper
+Subclasses (if any):
+ 
+Responsibilities:
+* Make a directory in the current working directory.
+
+Collaborators:

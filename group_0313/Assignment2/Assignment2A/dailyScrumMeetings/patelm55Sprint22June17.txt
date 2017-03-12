@@ -1,0 +1,12 @@
+a) What did I work on last time?
+-Implementing JShell main method
+-Created a working JShell
+-Helped wit design and implementation of Validator class
+-Shell takes commands 
+
+b) What do I plan to work on now?
+-Have the shell take 3-4 commands and have some action performed
+-Test Validator class using multiple commands and mock testing
+
+c) Am I blocked on anything?
+-Waiting for implementation of command classes and Validator

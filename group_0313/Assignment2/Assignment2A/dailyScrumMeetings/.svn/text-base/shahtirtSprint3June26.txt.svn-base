@@ -1,0 +1,11 @@
+a) What did I work on last time?
+-improved design of validator class
+-created mkdir class
+
+b) What do I plan to work on now?
+-test validator class
+-test mkdir class
+
+c) Am I blocked on anything?
+-waiting for hashTable to be implemented
+

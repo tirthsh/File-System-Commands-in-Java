@@ -1,0 +1,11 @@
+What did I work no last time?
+- Started to implement changes to mv and cp to reflect additional requirements in Assignment2B
+- Started to implement changes to fileSYstem to take into consideration of .. and .
+
+What do I plan on working on?
+- Continue to work on mv and cp and finish up the commands
+- Finish fileSystem changes, run tests
+- Make changes to fileSystem based on feedback from 2A
+
+Am I stuck on anything?
+- no

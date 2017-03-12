@@ -1,0 +1,12 @@
+What did I do last time?
+    - brainstorm ideas for file class
+    - brain storm ideas for program
+    - proposed change for making directory class 
+a subclass of file 
+
+What do I plan to do now?
+    - finish file class
+    - update crc cards 
+
+Am I blocked on anything?
+    - fortunately no

@@ -1,0 +1,16 @@
+a) What did I work on last time?
+-Have the shell take 3-4 commands and have the proper response take place
+-Test Validator class using multiple commands and mock testing
+-Implement proper user messages based upon input
+
+b) What do I plan to work on now?
+-Make a method that creates one instance of FileSystem only.
+-Moving Validator validate input into each command
+-Create the man command
+-Create the history command
+-'Connect all the pieces', call the command objects and get a shell going
+
+
+c) Am I blocked on anything?
+-Waiting for implementation of command classes from Validator to each command
+-Hashtable calling

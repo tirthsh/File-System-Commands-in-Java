@@ -1,0 +1,17 @@
+a) What did I work on last time?
+-Designed and brainstormed implementation for the second sprint
+-Met up, Divided tasks, helped each other and got in sync with what each other $
+-working towards implementing the Validator class
+
+b) What do I plan to work on now?
+-Test Validator class using multiple commands and mock testing
+-Work on implementing a few more commands in the validator
+-Improve design so it can work for all inputs and special cases
+
+c) Am I blocked on anything?
+-Still working on the validator
+
+
+
+
+
